@@ -45,6 +45,7 @@ const pins = [
     { id: 44, imageUrl: './images/zabid_gelo_palay.jpg', title: 'zabid_gelo_palay', description: '' },
     { id: 45, imageUrl: './images/zabid_not_lit.jpg', title: 'zabid_not_lit', description: '' },
     { id: 46, imageUrl: './images/zabid_own_bully.jpg', title: 'zabid_own_bully', description: '' },
+    { id: 47, imageUrl: './images/Atif_👍.jpg', title: 'Atif 👍.jpg', description: '👍' },
 ];
 
 const CONFIG = {
