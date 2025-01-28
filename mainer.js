@@ -49,6 +49,7 @@ const pins = [
     { id: 48, imageUrl: './images/ayman_calling.jpeg', title: 'Ayman calling', description: 'yo phone linging' },
     { id: 49, imageUrl: './images/blurry.jpeg', title: 'Blurry tabia', description: '' },
     { id: 50, imageUrl: './images/rafsan_in_lift.jpeg', title: 'Rafsan in lift', description: 'din din beyadob hoye jacche' },
+    { id: 51, imageUrl: './images/ahyan_the boss.jpg', title: 'Ahyan the boss', description: 'ahyan , swargo thuggin ' },
 ];
 
 const CONFIG = {
