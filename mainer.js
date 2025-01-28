@@ -46,6 +46,9 @@ const pins = [
     { id: 45, imageUrl: './images/zabid_not_lit.jpg', title: 'zabid_not_lit', description: '' },
     { id: 46, imageUrl: './images/zabid_own_bully.jpg', title: 'zabid_own_bully', description: '' },
     { id: 47, imageUrl: './images/atif_happy.jpg', title: 'Atif 👍', description: '👍' },
+    { id: 48, imageUrl: './images/ayman_calling.jpeg', title: 'Ayman calling', description: 'yo phone linging' },
+    { id: 49, imageUrl: './images/blurry.jpeg', title: 'Blurry tabia', description: '' },
+    { id: 50, imageUrl: './images/rafsan_in_lift.jpeg', title: 'Rafsan in lift', description: 'din din beyadob hoye jacche' },
 ];
 
 const CONFIG = {
