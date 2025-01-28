@@ -47,7 +47,7 @@ const pins = [
     { id: 46, imageUrl: './images/zabid_own_bully.jpg', title: 'zabid_own_bully', description: '' },
     { id: 47, imageUrl: './images/atif_happy.jpg', title: 'Atif 👍', description: '👍' },
     { id: 48, imageUrl: './images/ayman_calling.jpg', title: 'Ayman calling', description: 'yo phone linging' },
-    { id: 49, imageUrl: './images/blurry.jpg', title: 'Blurry tabia', description: '' },
+    { id: 49, imageUrl: './images/blurry_tabia.jpg', title: 'Blurry tabia', description: '' },
     { id: 50, imageUrl: './images/rafsan_in_lift.jpg', title: 'Rafsan in lift', description: 'din din beyadob hoye jacche' },
     { id: 51, imageUrl: './images/ahyan_the boss.jpg', title: 'Ahyan the boss', description: 'ahyan , swargo thuggin ' },
 ];
