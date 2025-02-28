@@ -63,7 +63,7 @@ class PopupManager {
         
         popup.querySelector('.accept-btn').addEventListener('click', () => {
             popup.remove();
-            localStorage.setItem('disclaimerAccepted', 'false');
+            localStorage.setItem('disclaimerAccepted', 'true');
         });
     }
 
