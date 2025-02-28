@@ -43,27 +43,19 @@ class PopupManager {
         return popup;
     }
 
-    static createDisclaimerPopup() {
+   static createDisclaimerPopup() {
         const popup = document.createElement('div');
         popup.className = 'popup-overlay active';
         popup.id = 'disclaimerPopup';
         popup.innerHTML = `
             <div class="popup-content disclaimer">
-                <h2>Important Notice</h2>
+                <h2>Welcome to My Portfolio</h2>
                 <div class="disclaimer-text">
-                    <h3>Ownership Disclaimer:</h3>
-                    <p>All images featured on this website are not owned by the platform itself. Ownership and responsibility for uploaded images remain with the users.</p>
-                    
-                    <h3>User Responsibility:</h3>
-                    <ul>
-                        <li>Users must own the rights to any image they upload to the website.</li>
-                        <li>If the image includes other individuals or belongs to someone else, users must obtain explicit consent and permission from the person(s) or rightful owner before uploading.</li>
-                    </ul>
-                    
-                    <h3>Takedown Requests:</h3>
-                    <p>If you believe an image infringes on your rights or was uploaded without proper consent, please reach out via Instagram at @ayman_brr11 to request its removal.</p>
+                    <p>Hi there! 👋</p>
+                    <p>I'm still early in my graphic design journey, so my portfolio is small, but I'm passionate about creating meaningful and visually appealing designs.</p>
+                    <p>I would love the opportunity to work with you and grow my skills further. If you have any projects or collaborations in mind, feel free to reach out!</p>
                 </div>
-                <button class="accept-btn">Okay, I understand</button>
+                <button class="accept-btn">Got it!</button>
             </div>
         `;
         
@@ -71,7 +63,7 @@ class PopupManager {
         
         popup.querySelector('.accept-btn').addEventListener('click', () => {
             popup.remove();
-            localStorage.setItem('disclaimerAccepted', 'true');
+            localStorage.setItem('disclaimerAccepted', 'false');
         });
     }
 
