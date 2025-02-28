@@ -35,6 +35,14 @@ class PopupManager {
                         <i class="fas fa-download"></i>
                         Download Image
                     </button>
+                    <div class="collaborate-section">
+                        <p>Want to collaborate? <a href="mailto:ayman.rahman.boi@gmail.com">Email me</a> or message me at:</p>
+                        <p>
+                            Instagram: 
+                            <a href="https://www.instagram.com/ayman_brr11" target="_blank">ayman_brr11</a> or 
+                            <a href="https://www.instagram.com/ayman_da_memer" target="_blank">ayman_da_memer</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         `;
@@ -43,7 +51,7 @@ class PopupManager {
         return popup;
     }
 
-   static createDisclaimerPopup() {
+    static createDisclaimerPopup() {
         const popup = document.createElement('div');
         popup.className = 'popup-overlay active';
         popup.id = 'disclaimerPopup';
@@ -91,7 +99,6 @@ class PopupManager {
         downloadBtn.onclick = () => ImageUtils.downloadImage(pin);
     }
 }
-
 
 class ImageUtils {
     static async downloadImage(pin) {
